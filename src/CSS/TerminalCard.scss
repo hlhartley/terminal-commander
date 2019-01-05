@@ -1,6 +1,20 @@
 @import '_variables.scss';
 
-.text {
-    color: orange;
-    background-color: blue;
+.terminal-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: rgb(30, 198, 30);
+    background-color: black;
+    padding: 10px;
+    input {
+        text-align: center;
+        width: 540px;
+        margin-bottom: 15px;
+    }
+    span {
+        text-decoration: underline;
+    }
 }
