@@ -9,12 +9,20 @@
     color: rgb(30, 198, 30);
     background-color: black;
     padding: 10px;
+    p {
+        line-height: 10px;
+    }
     input {
         text-align: center;
         width: 540px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    span {
+    .score {
+        color: #f47d4e;
+    }
+    .command-instructions {
         text-decoration: underline;
+        color: #00b8d2;
     }
 }
