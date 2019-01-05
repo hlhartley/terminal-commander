@@ -4,6 +4,13 @@
 @import 'GameContainer.scss';
 @import 'ProgressBar.scss';
 @import 'TerminalCard.scss';
+@import url('https://fonts.googleapis.com/css?family=Sarpanch');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+* {
+    font-family: $regular-font;
+    font-size: 20px;
+}
 
 .test {
     color: $test-color;
