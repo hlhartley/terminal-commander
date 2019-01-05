@@ -8,6 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='app-container'>
+        <button className='reset-button'>RESET GAME</button>
         <GameContainer />
         <TerminalCard />
       </div>
