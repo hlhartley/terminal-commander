@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import './CSS/main.scss';
+import Header from './Header';
+import TerminalCard from './TerminalCard';
+import ProgressBar from './ProgressBar';
 
 export default class App extends Component {
+
   render() {
     return (
       <div>
-        <h1 className='test'>Hi app</h1>
+        <Header />
+        <TerminalCard />
+        <ProgressBar />
       </div>
     );
   }
