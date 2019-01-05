@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import './CSS/main.scss';
-import Header from './Header';
+import GameContainer from './GameContainer';
 import TerminalCard from './TerminalCard';
-import ProgressBar from './ProgressBar';
 
 export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header />
+      <div className='app-container'>
+        <GameContainer />
         <TerminalCard />
-        <ProgressBar />
       </div>
     );
   }
