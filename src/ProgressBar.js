@@ -6,7 +6,7 @@ export default class ProgressBar extends Component {
   render() {
     return (
       <div>
-          <p className='progress-text'>ProgressBar text</p>
+          <img src='/images/armytank.png' className='tank-img'></img>
       </div>
     );
   }

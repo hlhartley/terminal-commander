@@ -4,8 +4,8 @@ import ProgressBar from './ProgressBar';
 
 const GameContainer = (props) => {
     return (
-        <div className='header'>
-           <p className='background-text'>Background text</p>
+        <div className='main-screen'>
+           <h1>TERMINAL COMMANDER</h1>
            <ProgressBar />
         </div>
         )

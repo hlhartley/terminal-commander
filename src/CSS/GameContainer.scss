@@ -1,8 +1,15 @@
 @import '_variables.scss';
 
-.header {
+.main-screen {
     background: url(/images/grassbackground.png); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     height: 465px;
 }
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
