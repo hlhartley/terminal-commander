@@ -38,8 +38,16 @@ export default class TerminalCard extends Component {
 
   updateScore(event) {
     if(this.state.inputValue === this.displayCommandInput()) {
+      this.clearInput()
       this.setState({score: this.state.score + 1})
     }
+  }
+
+  clearInput = () => {
+    // document.getElementById("commandInput").reset();
+    this.setState({
+      inputValue: ''
+    })
   }
   
   render() {
@@ -48,7 +56,7 @@ export default class TerminalCard extends Component {
           <p className='mission-text'>Mission: type in the correct commands to get your tank to the target star</p>
           <p>Score: <span className='score'>{this.state.score} / 30</span> complete</p>
           <p>Enter command to "<span className='command-instructions'>{this.displayCommandDescription()}</span>"</p>
-          <input placeholder={this.displayCommandInput()} className='command-input' onChange={this.enterCommand}></input>
+          <input placeholder={this.displayCommandInput()} id='commandInput' className='command-input' onChange={this.enterCommand}></input>
         </div>
       );
     }
