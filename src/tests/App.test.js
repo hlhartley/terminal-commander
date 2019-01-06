@@ -21,20 +21,20 @@ describe('App', () => {
 
   beforeEach(() => {
     wrapper = shallow(
-      <App/>
+      <App {...hhTerminalCommands}/>
     );
   })
 
   it('should match the snapshot with all data passed in correctly', () => {
     expect(wrapper).toMatchSnapshot();
   })
-})
 
   it('should have a proper default state', () => {
     expect(wrapper.state()).toEqual({
       hhTerminalCommands: [],
     })
   })
+})
 
 // Remaining Tests:
 // button (?)

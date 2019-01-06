@@ -18,24 +18,24 @@ describe('TerminalCard', () => {
 
   beforeEach(() => {
     wrapper = shallow(
-      <TerminalCard />
+      <TerminalCard {...hhTerminalCommands}/>
     );
   })
 
   it('should match the snapshot with all data passed in correctly', () => {
     expect(wrapper).toMatchSnapshot();
   })
-})
 
-    it('should have a proper default state', () => {
-        expect(wrapper.state()).toEqual({
+  it('should have a proper default state', () => {
+      expect(wrapper.state()).toEqual({
         score: 0,
         inputValue: '',
-        })
-    })
+      })
+  })
+})
 
     // Remaining methods to test: 
-    // displayCOmmandDescription(), 
+    // displayCommandDescription(), 
     // displayCommandInput(),
     // enterCommand,
     // updateScore

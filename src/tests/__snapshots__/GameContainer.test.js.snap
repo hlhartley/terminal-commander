@@ -21,6 +21,21 @@ ShallowWrapper {
         <h1>
           TERMINAL COMMANDER
         </h1>,
+        <div
+          className="cloud x1"
+        />,
+        <div
+          className="cloud x2"
+        />,
+        <div
+          className="cloud x3"
+        />,
+        <div
+          className="cloud x4"
+        />,
+        <div
+          className="cloud x5"
+        />,
         <ProgressBar />,
       ],
       "className": "main-screen",
@@ -37,6 +52,61 @@ ShallowWrapper {
         "ref": null,
         "rendered": "TERMINAL COMMANDER",
         "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "cloud x1",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "cloud x2",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "cloud x3",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "cloud x4",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "cloud x5",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -60,6 +130,21 @@ ShallowWrapper {
           <h1>
             TERMINAL COMMANDER
           </h1>,
+          <div
+            className="cloud x1"
+          />,
+          <div
+            className="cloud x2"
+          />,
+          <div
+            className="cloud x3"
+          />,
+          <div
+            className="cloud x4"
+          />,
+          <div
+            className="cloud x5"
+          />,
           <ProgressBar />,
         ],
         "className": "main-screen",
@@ -76,6 +161,61 @@ ShallowWrapper {
           "ref": null,
           "rendered": "TERMINAL COMMANDER",
           "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "cloud x1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "cloud x2",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "cloud x3",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "cloud x4",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "cloud x5",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
         },
         Object {
           "instance": null,
