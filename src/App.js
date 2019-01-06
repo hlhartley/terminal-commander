@@ -8,7 +8,7 @@ export default class App extends Component {
     super();
 
   this.state = {
-    terminalCommands: [],
+    hhTerminalCommands: [],
   }
 }
 
@@ -17,7 +17,7 @@ export default class App extends Component {
       .then(results => results.json())
       .then((result) => {
         this.setState({
-          terminalCommands: result.hhTerminalCommands
+          hhTerminalCommands: result.hhTerminalCommands
         })
       })
       .catch(err => {
@@ -30,7 +30,7 @@ export default class App extends Component {
       <div className='app-container'>
         <button className='reset-button'>RESET GAME</button>
         <GameContainer />
-        <TerminalCard />
+        <TerminalCard terminalCommands = {this.state.terminalCommands}/>
       </div>
     );
   }
