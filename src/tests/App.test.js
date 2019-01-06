@@ -5,6 +5,17 @@ import { shallow } from 'enzyme';
 
 // reactDOM only on App.test.js
 
+const hhTerminalCommands = [{
+  id: 1,
+  description: "Reset terminal screen",
+  command: "reset"
+  },
+  {
+  id: 2,
+  description: "Clear screen",
+  command: "clear"
+  }]
+
 let wrapper;
 describe('App', () => {
 
@@ -18,3 +29,13 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot();
   })
 })
+
+  it('should have a proper default state', () => {
+    expect(wrapper.state()).toEqual({
+      hhTerminalCommands: [],
+    })
+  })
+
+// Remaining Tests:
+// button (?)
+// componentDidMount(?)
