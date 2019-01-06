@@ -44,7 +44,7 @@ export default class TerminalCard extends Component {
   }
 
   clearInput = () => {
-    // document.getElementById("commandInput").reset();
+    document.getElementById("commandInput").value = '';
     this.setState({
       inputValue: ''
     })
