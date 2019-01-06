@@ -1,0 +1,20 @@
+@import '_variables.scss';
+
+.commands-modal {
+    // animation: popUp .5s ease 0s 1 normal;     
+    background-color: #ffc8c8;
+    border: 3px solid black;
+    bottom: 0;
+    display: none;
+    height: 70%;
+    left: 0;
+    margin: auto;
+    overflow: scroll;
+    padding: 35px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 65%;
+    border-radius: 15px;
+    z-index: 10;
+}
