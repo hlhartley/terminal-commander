@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should match the snapshot with all data passed in correctly 1`] = `
+exports[`GameContainer should match the snapshot with all data passed in correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <GameContainer />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,17 +18,12 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <button
-          className="reset-button"
-        >
-          RESET GAME
-        </button>,
-        <GameContainer />,
-        <TerminalCard
-          terminalCommands={Array []}
-        />,
+        <h1>
+          TERMINAL COMMANDER
+        </h1>,
+        <ProgressBar />,
       ],
-      "className": "app-container",
+      "className": "main-screen",
     },
     "ref": null,
     "rendered": Array [
@@ -37,29 +32,17 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "RESET GAME",
-          "className": "reset-button",
+          "children": "TERMINAL COMMANDER",
         },
         "ref": null,
-        "rendered": "RESET GAME",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": "TERMINAL COMMANDER",
+        "type": "h1",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {
-          "terminalCommands": Array [],
-        },
+        "props": Object {},
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -74,17 +57,12 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <button
-            className="reset-button"
-          >
-            RESET GAME
-          </button>,
-          <GameContainer />,
-          <TerminalCard
-            terminalCommands={Array []}
-          />,
+          <h1>
+            TERMINAL COMMANDER
+          </h1>,
+          <ProgressBar />,
         ],
-        "className": "app-container",
+        "className": "main-screen",
       },
       "ref": null,
       "rendered": Array [
@@ -93,29 +71,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "RESET GAME",
-            "className": "reset-button",
+            "children": "TERMINAL COMMANDER",
           },
           "ref": null,
-          "rendered": "RESET GAME",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": "TERMINAL COMMANDER",
+          "type": "h1",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {
-            "terminalCommands": Array [],
-          },
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],

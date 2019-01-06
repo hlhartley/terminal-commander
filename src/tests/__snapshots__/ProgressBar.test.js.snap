@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should match the snapshot with all data passed in correctly 1`] = `
+exports[`ProgressBar should match the snapshot with all data passed in correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <ProgressBar />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,17 +18,18 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <button
-          className="reset-button"
-        >
-          RESET GAME
-        </button>,
-        <GameContainer />,
-        <TerminalCard
-          terminalCommands={Array []}
+        <img
+          alt="tank"
+          className="tank-img"
+          src="/images/armytank.png"
+        />,
+        <img
+          alt="yellow star"
+          className="star-img pulse"
+          src="/images/star.png"
         />,
       ],
-      "className": "app-container",
+      "className": "progress-container",
     },
     "ref": null,
     "rendered": Array [
@@ -37,32 +38,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "RESET GAME",
-          "className": "reset-button",
+          "alt": "tank",
+          "className": "tank-img",
+          "src": "/images/armytank.png",
         },
         "ref": null,
-        "rendered": "RESET GAME",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": "img",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "terminalCommands": Array [],
+          "alt": "yellow star",
+          "className": "star-img pulse",
+          "src": "/images/star.png",
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": "img",
       },
     ],
     "type": "div",
@@ -74,17 +69,18 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <button
-            className="reset-button"
-          >
-            RESET GAME
-          </button>,
-          <GameContainer />,
-          <TerminalCard
-            terminalCommands={Array []}
+          <img
+            alt="tank"
+            className="tank-img"
+            src="/images/armytank.png"
+          />,
+          <img
+            alt="yellow star"
+            className="star-img pulse"
+            src="/images/star.png"
           />,
         ],
-        "className": "app-container",
+        "className": "progress-container",
       },
       "ref": null,
       "rendered": Array [
@@ -93,32 +89,26 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "RESET GAME",
-            "className": "reset-button",
+            "alt": "tank",
+            "className": "tank-img",
+            "src": "/images/armytank.png",
           },
           "ref": null,
-          "rendered": "RESET GAME",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": "img",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "terminalCommands": Array [],
+            "alt": "yellow star",
+            "className": "star-img pulse",
+            "src": "/images/star.png",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": "img",
         },
       ],
       "type": "div",
