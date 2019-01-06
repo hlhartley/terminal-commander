@@ -30,7 +30,7 @@ export default class App extends Component {
       <div className='app-container'>
         <button className='reset-button'>RESET GAME</button>
         <GameContainer />
-        <TerminalCard terminalCommands = {this.state.terminalCommands}/>
+        <TerminalCard terminalCommands = {this.state.hhTerminalCommands}/>
       </div>
     );
   }
