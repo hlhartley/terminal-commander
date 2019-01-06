@@ -1,6 +1,6 @@
 .app-container {
   display: grid;
-  .reset-button {
+  .reset-button, .keys-button, .allcommands-button {
     position: absolute;
     width: 130px;
     border-radius: 15px;
@@ -17,5 +17,11 @@
       background-color: #67d4e7;
     }
   }
+    .keys-button {
+      top: 49px;
+      }
+      .allcommands-button {
+        top: 83px;
+      }
 }
 

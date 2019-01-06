@@ -41,6 +41,8 @@ export default class App extends Component {
     return (
       <div className='app-container'>
         <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
+        <button className='keys-button' onClick={this.resetGame}>ALL KEYS</button>
+        <button className='allcommands-button' onClick={this.resetGame}>ALL COMMANDS</button>
         <AllCommandsModal terminalCommands = {this.state.hhTerminalCommands}/>
         <KeyModal />
         <GameContainer clickReset = {this.state.clickReset}/>
