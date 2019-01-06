@@ -8,17 +8,16 @@ export default class App extends Component {
     super();
 
   this.state = {
-    hhTerminalCommands: [],
+    terminalCommands: [],
   }
 }
 
   componentDidMount() {
-    debugger
     fetch("http://memoize-datasets.herokuapp.com/api/v1/hhTerminalCommands")
       .then(results => results.json())
       .then((result) => {
         this.setState({
-          hhTerminalCommands: result.hhTerminalCommands
+          terminalCommands: result.hhTerminalCommands
         })
       })
       .catch(err => {
