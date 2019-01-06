@@ -9,6 +9,7 @@ export default class App extends Component {
 
   this.state = {
     hhTerminalCommands: [],
+    score: 0,
   }
 }
 
@@ -25,13 +26,24 @@ export default class App extends Component {
       })
   }
 
+  updateScore() {
+    this.setState({score: this.state.score + 1})
+  }
+
+  resetGame = (e) => {
+    e.preventDefault()
+    this.setState({score: 0})
+  }
+
   render() {
     return (
       <div className='app-container'>
-        <button className='reset-button'>RESET GAME</button>
-        <GameContainer />
+        <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
+        <GameContainer clickReset = {this.state.clickReset}/>
         <TerminalCard 
           terminalCommands = {this.state.hhTerminalCommands}
+          score = {this.state.score}
+          updateScore = {this.updateScore.bind(this)}
         />
       </div>
     );
