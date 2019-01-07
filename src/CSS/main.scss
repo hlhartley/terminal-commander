@@ -31,6 +31,10 @@ button {
     cursor: pointer;
 }
 
+button:focus {
+    outline: 0;
+}
+
 // modals
 .modal-title {
     text-decoration: underline;
