@@ -15,6 +15,9 @@ export default class TerminalCard extends Component {
   }
 
   displayCommandDescription() {
+    if(this.props.score === 30) {
+      return 'You won'
+    }
     if(!this.props.terminalCommands.length) {
       return 'Reset terminal screen';
     } else {
@@ -23,6 +26,9 @@ export default class TerminalCard extends Component {
   }
 
   displayCommandInput() {
+    if(this.props.score === 30) {
+      return 'You won'
+    }
     if(!this.props.terminalCommands.length) {
       return 'reset';
     } else {
@@ -50,13 +56,21 @@ export default class TerminalCard extends Component {
   }
   
   render() {
-    return (
+    if(this.props.score === 30) {
+      return (
         <div className='terminal-card'>
-          <p className='mission-text'>Mission: type in the correct commands to get your tank to the target star</p>
-          <p>Score: <span className='score'>{this.props.score} / 30</span> complete</p>
-          <p>Enter command to "<span className='command-instructions'>{this.displayCommandDescription()}</span>"</p>
-          <input placeholder={this.displayCommandInput()} id='commandInput' className='command-input' onChange={this.enterCommand}></input>
-        </div>
-      );
+          <p className='congrats-message'><i class="fas fa-flag-usa"></i> CONGRATS YOU WON THE GAME!</p>
+      </div>
+      )
+    } else {
+      return (
+          <div className='terminal-card'>
+            <p className='mission-text'>Mission: type in the correct commands to get your tank to the target star</p>
+            <p>Score: <span className='score'>{this.props.score} / 30</span> complete</p>
+            <p>Enter command to "<span className='command-instructions'>{this.displayCommandDescription()}</span>"</p>
+            <input placeholder={this.displayCommandInput()} id='commandInput' className='command-input' onChange={this.enterCommand}></input>
+          </div>
+        );
+      }
     }
   }
