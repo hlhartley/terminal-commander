@@ -4,6 +4,9 @@ A web-based React game that allows users to enhance muscle memory by repetitivel
 ## Final App Screenshot
 ![Wireframe](terminal-commander-screenshot.png)
 
+## Beginning Wireframes
+![Wireframe](terminal-commander-wireframe.png)
+
 ## Installation
 - Clone the repo: git clone https://github.com/hlhartley/terminal-commander
 - Install dependencies: npm install
@@ -18,9 +21,6 @@ Terminal Commander was an individual project built using React. It was intended 
 - SCSS
 - Jest
 - Enzyme
-
-## Beginning Wireframes
-![Wireframe](terminal-commander-wireframe.png)
 
 ## Future Enhancements
 - Animating the tank image with CSS
