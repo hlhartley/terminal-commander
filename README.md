@@ -11,7 +11,7 @@ A web-based React game that allows users to enhance muscle memory by repetitivel
 - For testing suite: npm test
 
 ## Background / About
-Terminal Commander was an individual project built using React. It was intended to help new MAC users as well as users unfamiliar with MAC Terminal Commands. The project required making a dataset of 30 terminal commands with associated descriptions and then using the Fetch API call to import data to use directly in the app. There are 30 commands total and the tank image moves across the screen as the user types in the correct command. Once a user types in all 30 commands correctly, they win the game!
+Terminal Commander was an individual project built using React. It was intended to help new MAC users as well as users unfamiliar with MAC Terminal Commands. The project required making a dataset of 30 terminal commands with associated descriptions and then using the Fetch API call to import data directly into the app. There are 30 total commands and the tank image moves across the screen as the user types in the correct command. Once a user types in all 30 commands correctly, they win the game!
 
 ## Primary Technologies Used
 - React
