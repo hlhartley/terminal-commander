@@ -5,7 +5,6 @@
     background-color: #ffc8c8;
     border: 3px solid black;
     bottom: 0;
-    display: none;
     height: 70%;
     left: 0;
     margin: auto;
@@ -17,4 +16,16 @@
     width: 65%;
     border-radius: 15px;
     z-index: 10;
+    button {
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+.blue {
+    color: $skyblue;
 }

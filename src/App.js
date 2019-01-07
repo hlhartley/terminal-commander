@@ -37,14 +37,22 @@ export default class App extends Component {
     this.setState({score: 0})
   }
 
+  toggleModal() {
+    let allHideClassnames = document.querySelector('.hide')
+    // [...allHideClassnames].forEach((className) => {
+    //   className.classList.remove('hide');
+    // })
+    allHideClassnames.classList.remove('hide')
+  }
+
   render() {
     return (
       <div className='app-container'>
       <GameContainer clickReset = {this.state.clickReset}/>
         <div className='buttons-container'>
-        <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
-        <button className='keys-button' onClick={this.resetGame}>ALL KEYS</button>
-        <button className='allcommands-button' onClick={this.resetGame}>ALL COMMANDS</button>
+          <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
+          <button className='keys-button' onClick={this.toggleModal}>ALL KEYS</button>
+          <button className='allcommands-button' onClick={this.toggleModal}>ALL COMMANDS</button>
         </div>
         <AllCommandsModal terminalCommands = {this.state.hhTerminalCommands}/>
         <KeyModal />

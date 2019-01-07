@@ -4,18 +4,15 @@ import './CSS/main.scss';
 const AllCommandsModal = (props) => {
     let allCommands = props.terminalCommands;
     return (
-     <div className='commands-modal'>
-         {/* <p>Key:</p>
-            <ul>
-                <li>[file] = file name</li>
-                <li>[directory] = directory name</li>
-                <li>[file extension] = file extension type (ex. .html, .css, .txt)</li>
-            </ul> */}
-         <p>All Commands:</p>
+     <div className='hide commands-modal'>
+     <div className='button-container'>
+        <button>x</button>
+         </div>
+         <h2 className='underline'>All Commands:</h2>
          <ol>
          {
             allCommands.map((command) => {
-            return <li>{command.description} = {command.command}</li>
+            return <li><span className='skyblue'>{command.description}</span> = {command.command}</li>
          })
         }
          </ol>

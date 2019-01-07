@@ -6,14 +6,11 @@
     background-color: #00522e;
   }
   .reset-button, .keys-button, .allcommands-button {
-    // position: absolute;
     margin: 10px;
     margin-left: 15px;
     margin-right: 15px;
     width: 130px;
     border-radius: 15px;
-    // top: 15px;
-    // right: 18px;
     font-size: 15px;
     padding: 3px;
     color: #FFF;
@@ -25,11 +22,11 @@
       background-color: #795757;
     }
   }
-    .keys-button {
-      top: 49px;
-      }
-      .allcommands-button {
-        top: 83px;
-      }
+  .keys-button {
+    top: 49px;
+  }
+  .allcommands-button {
+    top: 83px;
+  }
 }
 
