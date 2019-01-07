@@ -3,9 +3,9 @@ import './CSS/main.scss';
 
 const KeyModal = (props) => {
     return (
-     <div className='hide key-modal'>
+     <div className='key-modal'>
       <div className='button-container'>
-        <button>x</button>
+        <button onClick={props.toggleModal}>x</button>
          </div>
          <h2 className='modal-title'>Key:</h2>
             <ul className='modal-list'>

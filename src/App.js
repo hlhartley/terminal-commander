@@ -12,6 +12,8 @@ export default class App extends Component {
   this.state = {
     hhTerminalCommands: [],
     score: 0,
+    showCommands: false,
+    showKeys: false,
   }
 }
 
@@ -37,12 +39,26 @@ export default class App extends Component {
     this.setState({score: 0})
   }
 
-  toggleModal() {
-    let allHideClassnames = document.querySelector('.hide')
-    // [...allHideClassnames].forEach((className) => {
-    //   className.classList.remove('hide');
-    // })
-    allHideClassnames.classList.remove('hide')
+  toggleAllCommandsModal() {
+    this.setState({showCommands: !this.state.showCommands})
+  }
+
+  toggleAllKeysModal() {
+    this.setState({showKeys: !this.state.showKeys})
+  }
+
+  renderModals() {
+    if(this.state.showCommands) {
+      return ( 
+        <AllCommandsModal 
+          terminalCommands = {this.state.hhTerminalCommands} 
+          toggleModal = {this.toggleAllCommandsModal.bind(this)}
+        />
+      )
+    }
+    if(this.state.showKeys) {
+      return <KeyModal toggleModal = {this.toggleAllKeysModal.bind(this)}/>
+    }
   }
 
   render() {
@@ -51,11 +67,10 @@ export default class App extends Component {
       <GameContainer clickReset = {this.state.clickReset}/>
         <div className='buttons-container'>
           <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
-          <button className='keys-button' onClick={this.toggleModal}>ALL KEYS</button>
-          <button className='allcommands-button' onClick={this.toggleModal}>ALL COMMANDS</button>
+          <button className='keys-button' onClick={this.toggleAllKeysModal.bind(this)}>ALL KEYS</button>
+          <button className='allcommands-button' onClick={this.toggleAllCommandsModal.bind(this)}>ALL COMMANDS</button>
         </div>
-        <AllCommandsModal terminalCommands = {this.state.hhTerminalCommands}/>
-        <KeyModal />
+        {this.renderModals()}
         <TerminalCard 
           terminalCommands = {this.state.hhTerminalCommands}
           score = {this.state.score}
