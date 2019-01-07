@@ -34,8 +34,7 @@ componentDidMount() {
     this.setState({score: this.state.score + 1})
   }
 
-  resetGame = (e) => {
-    e.preventDefault()
+  resetGame = () => {
     this.setState({score: 0})
   }
 

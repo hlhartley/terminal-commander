@@ -21,3 +21,5 @@ const AllCommandsModal = (props) => {
   }
 
 export default AllCommandsModal;
+
+// test snapshots

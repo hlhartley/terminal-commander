@@ -27,22 +27,21 @@ describe('TerminalCard', () => {
   })
 
   it('should exist', () => {
-    console.log(wrapper.instance().props)
+    // console.log(wrapper.instance().props)
     expect(wrapper).toBeDefined();
   })
 
-  xit('should match the snapshot with all data passed in correctly', () => {
+  it('should match the snapshot with all data passed in correctly', () => {
     expect(wrapper).toMatchSnapshot();
   })
 
-  xit('should have a proper default state', () => {
-    console.log("WRAPPER*******", wrapper)
+  it('should have a proper default state', () => {
     expect(wrapper.state()).toEqual({
       inputValue: '',
     })
   })
 
-  xit('enterCommand method should set state.inputValue with search string', () => {
+  it('enterCommand method should set state.inputValue with search string', () => {
     const mockedEvent = {
       target: {
         value: 'mockInput',
@@ -52,19 +51,29 @@ describe('TerminalCard', () => {
     wrapper.instance().enterCommand(mockedEvent);
     expect(wrapper.state().inputValue).toEqual('mockInput');
   })
-      // clearInput
-  xit('should change inputValue state to blank string when the enterCommand method is called', () => {
+ 
+  it('clearInput method should change inputValue state to blank string when the enterCommand method is called', () => {
     wrapper.find('.command-input').simulate('click', { inputValue: ''})
     expect(wrapper.state('inputValue')).toEqual('')
   })
+
+  // it('should append the correct number of Terminal Commands to the DOM', () => {
+  //   const firstCommand = wrapper.find('ToDontCard').first()
+  //   const lastCommand = wrapper.find('ToDontCard').last()
+
+  //   expect(wrapper.find('ToDontCard').length).toEqual(2)
+  //   expect firstCommand.props().toDont.title).toEqual('title1')
+  //   expect firstCommand.props().toDont.body).toEqual('body1')
+  //   expect(lastCommand.props().toDont.title).toEqual('title2')
+  //   expect(lastCommand.props().toDont.body).toEqual('body2')
+  // })
 })
-  
 
-    // Remaining methods to test: 
+// Remaining methods to test: 
     // displayCommandDescription(), 
-
+  // mock functions being passed as props
+  // test 1st if block - possible paths
     // displayCommandInput(),
 
-    // updateScore
-
-  // input?
+    // updateScore()
+  
