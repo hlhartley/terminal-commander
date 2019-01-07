@@ -5,7 +5,7 @@ A web-based React app that allows users to find the best ice cream flavors and p
 ![Wireframe](terminal-commander-screenshot.png)
 
 ## Installation
-- Clone the repo: git clone https://github.com/ericweissman/icecream_whateverly.git
+- Clone the repo: git clone https://github.com/hlhartley/terminal-commander
 - Install dependencies: npm install
 - Start Local Host: npm start
 - For testing suite: npm test
@@ -19,8 +19,5 @@ iScream was the first project our contributors built using React. After creating
 - Jest
 - Enzyme
 
-## Next Steps
-Future iterations of the project could include:
-- Search functionality for parlors
-- Only show parlors/flavors that are available based on user's local time
-- Ability for users to favorite flavors and/or parlors
+## Future Enhancements
+- Animating the tank image with CSS
