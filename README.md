@@ -1,6 +1,5 @@
 # Terminal Commander - the game
 A web-based React app that allows users to find the best ice cream flavors and parlors around the Denver, CO area.
-Installation Steps
 
 ## Final App Screenshot
 ![Wireframe](terminal-commander-screenshot.png)
