@@ -3,24 +3,11 @@ import ReactDOM from 'react-dom';
 import App from '../App';
 import { shallow } from 'enzyme';
 
-const hhTerminalCommands = [{
-  id: 1,
-  description: "Reset terminal screen",
-  command: "reset"
-  },
-  {
-  id: 2,
-  description: "Clear screen",
-  command: "clear"
-  }]
-
-let wrapper;
 describe('App', () => {
+  let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(
-      <App {...hhTerminalCommands}/>
-    );
+    wrapper = shallow(<App/>); 
   })
 
   it('should match the snapshot with all data passed in correctly', () => {

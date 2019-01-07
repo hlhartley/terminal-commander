@@ -3,22 +3,7 @@
 exports[`App should match the snapshot with all data passed in correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App
-    0={
-      Object {
-        "command": "reset",
-        "description": "Reset terminal screen",
-        "id": 1,
-      }
-    }
-    1={
-      Object {
-        "command": "clear",
-        "description": "Clear screen",
-        "id": 2,
-      }
-    }
-  />,
+  Symbol(enzyme.__unrendered__): <App />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
