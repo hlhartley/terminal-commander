@@ -40,12 +40,14 @@ export default class App extends Component {
   render() {
     return (
       <div className='app-container'>
+      <GameContainer clickReset = {this.state.clickReset}/>
+        <div className='buttons-container'>
         <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
         <button className='keys-button' onClick={this.resetGame}>ALL KEYS</button>
         <button className='allcommands-button' onClick={this.resetGame}>ALL COMMANDS</button>
+        </div>
         <AllCommandsModal terminalCommands = {this.state.hhTerminalCommands}/>
         <KeyModal />
-        <GameContainer clickReset = {this.state.clickReset}/>
         <TerminalCard 
           terminalCommands = {this.state.hhTerminalCommands}
           score = {this.state.score}
