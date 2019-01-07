@@ -11,7 +11,7 @@ const GameContainer = (props) => {
         <div className="cloud x3"></div>
         <div className="cloud x4"></div>
         <div className="cloud x5"></div>
-        <ProgressBar />
+        <ProgressBar score = {props.score}/>
         </div>
         )
 }

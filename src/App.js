@@ -11,7 +11,7 @@ export default class App extends Component {
 
   this.state = {
     hhTerminalCommands: [],
-    score: 0,
+    score: 29,
     showCommands: false,
     showKeys: false,
   }
@@ -64,18 +64,21 @@ export default class App extends Component {
   render() {
     return (
       <div className='app-container'>
-      <GameContainer clickReset = {this.state.clickReset}/>
+        <GameContainer 
+          clickReset = {this.state.clickReset}
+          score = {this.state.score}
+        />
         <div className='buttons-container'>
           <button className='reset-button' onClick={this.resetGame}>RESET GAME</button>
-          <button className='keys-button' onClick={this.toggleAllKeysModal.bind(this)}>ALL KEYS</button>
+          <button className='keys-button' onClick={this.toggleAllKeysModal.bind(this)}>KEY</button>
           <button className='allcommands-button' onClick={this.toggleAllCommandsModal.bind(this)}>ALL COMMANDS</button>
         </div>
-        {this.renderModals()}
         <TerminalCard 
           terminalCommands = {this.state.hhTerminalCommands}
           score = {this.state.score}
           updateScore = {this.updateScore.bind(this)}
         />
+        {this.renderModals()}
       </div>
     );
   }
