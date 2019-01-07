@@ -8,8 +8,8 @@ const AllCommandsModal = (props) => {
      <div className='button-container'>
         <button>x</button>
          </div>
-         <h2 className='underline'>All Commands:</h2>
-         <ol>
+         <h2 className='modal-title'>All Commands:</h2>
+         <ol className='modal-list'>
          {
             allCommands.map((command) => {
             return <li><span className='skyblue'>{command.description}</span> = {command.command}</li>
