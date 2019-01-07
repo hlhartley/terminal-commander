@@ -15,25 +15,22 @@
     letter-spacing: .75px;
 }
 
-button {
-    cursor: pointer;
-}
-
+// general
 .hide {
     display: none;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
-.bold {
-    font-weight: 600;
-}
-
+// colors
 .skyblue {
     color: $skyblue;
 }
+
+// buttons
+button {
+    cursor: pointer;
+}
+
+// modals
 .modal-title {
     text-decoration: underline;
     font-weight: 600;

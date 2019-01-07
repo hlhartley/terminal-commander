@@ -1,24 +1,24 @@
 .app-container {
   display: grid;
   .buttons-container {
+    background-color: $darkgreen;
     display: flex;
     justify-content: center;
-    background-color: #00522e;
   }
   .reset-button, .keys-button, .allcommands-button {
+    background-color: $darkbrown;
+    border: 2px solid $forestgreen;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 15px;
     margin: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    width: 130px;
-    border-radius: 15px;
-    font-size: 15px;
-    padding: 3px;
-    color: #FFF;
-    background-color: #5c3e3e;
-    border: 2px solid #568556;
     letter-spacing: 1.7px;
+    padding: 3px;
+    width: 130px;
     &:hover {
-      background-color: #795757;
+      background-color: $lightbrown;
     }
   }
   .keys-button {

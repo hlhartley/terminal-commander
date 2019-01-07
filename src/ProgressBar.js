@@ -8,7 +8,7 @@ export default class ProgressBar extends Component {
 
   render() {
     const transformStyles = {
-      transform: `translate(${this.props.score*35.5}px)`,
+      transform: `translate(${this.props.score*3}vw)`,
     }
 
     return (

@@ -1,28 +1,28 @@
 @import '_variables.scss';
 
 .terminal-card {
+    align-items: center;
+    background-color: black;
+    color: $neongreen;
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
     height: 26vh;
-    color: rgb(30, 198, 30);
-    background-color: black;
+    justify-content: center;
     padding: 10px;
     p {
         line-height: 10px;
     }
     input {
         text-align: center;
-        width: 540px;
-        margin-top: 10px;
         margin-bottom: 10px;
+        margin-top: 10px;
+        width: 540px;
     }
     .score {
-        color: #f47d4e;
+        color: $lightred;
     }
     .command-instructions {
+        color: $neonblue;
         text-decoration: underline;
-        color: #00b8d2;
     }
 }
