@@ -1,5 +1,5 @@
 # Terminal Commander - the game
-A web-based React game app that allows users to enhance muscle memory of terminal commands by typing the actual commands into the input box.
+A web-based React game app that allows users to enhance muscle memory by repetitively typing actual terminal commands into the input box. The inspiration for creating this app came from remembering when I was struggling to switch over to MAC and when I was overwhelmed trying to remember all of the terminal commands as a Junior Developer. Therefore, I hope to help other users who are unfamiliar with MAC and MAC terminal shortcuts. 
 
 ## Final App Screenshot
 ![Wireframe](terminal-commander-screenshot.png)
