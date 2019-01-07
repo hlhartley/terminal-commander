@@ -19,5 +19,8 @@ Terminal Commander was an individual project built using React. It required maki
 - Jest
 - Enzyme
 
+## Beginning Wireframes
+![Wireframe](terminal-commander-wireframe.png)
+
 ## Future Enhancements
 - Animating the tank image with CSS
