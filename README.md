@@ -1,5 +1,8 @@
-![Wireframe](terminal-commander-wireframe.png)
+## Final App Screenshot
+![Wireframe](terminal-commander-screenshot.png)
 
+## Starting App Wireframe
+![Wireframe](terminal-commander-wireframe.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
