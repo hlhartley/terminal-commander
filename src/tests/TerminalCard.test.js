@@ -57,23 +57,16 @@ describe('TerminalCard', () => {
     expect(wrapper.state('inputValue')).toEqual('')
   })
 
-  // it('should append the correct number of Terminal Commands to the DOM', () => {
-  //   const firstCommand = wrapper.find('ToDontCard').first()
-  //   const lastCommand = wrapper.find('ToDontCard').last()
+  xit('displayCommandInput method should return different value based on conditional logic (this.props.score)', () => {
+ 
+  })
 
-  //   expect(wrapper.find('ToDontCard').length).toEqual(2)
-  //   expect firstCommand.props().toDont.title).toEqual('title1')
-  //   expect firstCommand.props().toDont.body).toEqual('body1')
-  //   expect(lastCommand.props().toDont.title).toEqual('title2')
-  //   expect(lastCommand.props().toDont.body).toEqual('body2')
-  // })
+  xit('displayCommandDescription method should return different value based on conditional logic (this.props.score)', () => {
+ 
+  })
+
+  xit('updateScore method should call clearInput and updateScore methods', () => {
+ 
+  })
 })
-
-// Remaining methods to test: 
-    // displayCommandDescription(), 
-  // mock functions being passed as props
-  // test 1st if block - possible paths
-    // displayCommandInput(),
-
-    // updateScore()
   
