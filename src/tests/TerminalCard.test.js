@@ -31,11 +31,30 @@ describe('TerminalCard', () => {
         inputValue: '',
       })
   })
+
+  it('enterCommand method should set state.inputValue with search string', () => {
+    const mockedEvent = {
+      target: {
+        value: 'mockInput',
+      }
+    };
+    expect(wrapper.state().inputValue).toEqual('');
+    wrapper.instance().enterCommand(mockedEvent);
+    expect(wrapper.state().inputValue).toEqual('mockInput');
+  })
+      // clearInput
+  it('should change inputValue state to blank string when the enterCommand method is called', () => {
+    wrapper.find('.command-input').simulate('click', { inputValue: ''})
+    expect(wrapper.state('inputValue')).toEqual('')
+  })
 })
+  
 
     // Remaining methods to test: 
     // displayCommandDescription(), 
+
     // displayCommandInput(),
-    // enterCommand,
+
     // updateScore
-    // clearInput
+
+  // input?

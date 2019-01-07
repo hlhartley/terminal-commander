@@ -39,8 +39,29 @@ describe('App', () => {
 
 // Remaining Tests:
 // updateScore
+// it('should change App score state to +1 when the updateScore method is called', () => {
+//   wrapper.find('').simulate('click', { score: 1})
+//   expect(wrapper.state('')).toEqual(1)
+// })
+
 // resetGame
+// it('should change App score state to 0 when the resetGame method is called', () => {
+//   wrapper.find('').simulate('click', { score: 0})
+//   expect(wrapper.state('')).toEqual(0)
+// })
+
 // toggleAllCommandsModal
+// it('should change App showCommands state to opposite when the toggleAllCommandsModal method is called', () => {
+//   wrapper.find('').simulate('click', { showCommands: true})
+//   expect(wrapper.state('')).toEqual(true)
+// })
+
 // toggleAllKeysModal
+// it('should change App showKeysstate to opposite when the toggleAllKeysModal method is called', () => {
+//   wrapper.find('').simulate('click', { showCommands: true})
+//   expect(wrapper.state('')).toEqual(true)
+// })
+
 // renderModals
+
 // buttons?
