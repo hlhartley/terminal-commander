@@ -60,7 +60,7 @@ export default class TerminalCard extends Component {
       return (
         <div className='terminal-card'>
           <p className='congrats-message'><i class="fas fa-flag-usa"></i> CONGRATS YOU WON THE GAME!</p>
-      </div>
+        </div>
       )
     } else {
       return (

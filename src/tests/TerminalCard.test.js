@@ -28,7 +28,6 @@ describe('TerminalCard', () => {
 
   it('should have a proper default state', () => {
       expect(wrapper.state()).toEqual({
-        score: 0,
         inputValue: '',
       })
   })

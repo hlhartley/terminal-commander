@@ -22,6 +22,11 @@ ShallowWrapper {
           alt="tank"
           className="tank-img"
           src="/images/armytank.png"
+          style={
+            Object {
+              "transform": "translate(NaNvw)",
+            }
+          }
         />,
         <img
           alt="yellow star"
@@ -41,6 +46,9 @@ ShallowWrapper {
           "alt": "tank",
           "className": "tank-img",
           "src": "/images/armytank.png",
+          "style": Object {
+            "transform": "translate(NaNvw)",
+          },
         },
         "ref": null,
         "rendered": null,
@@ -73,6 +81,11 @@ ShallowWrapper {
             alt="tank"
             className="tank-img"
             src="/images/armytank.png"
+            style={
+              Object {
+                "transform": "translate(NaNvw)",
+              }
+            }
           />,
           <img
             alt="yellow star"
@@ -92,6 +105,9 @@ ShallowWrapper {
             "alt": "tank",
             "className": "tank-img",
             "src": "/images/armytank.png",
+            "style": Object {
+              "transform": "translate(NaNvw)",
+            },
           },
           "ref": null,
           "rendered": null,

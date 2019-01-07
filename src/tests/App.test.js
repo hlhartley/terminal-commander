@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import App from '../App';
 import { shallow } from 'enzyme';
 
-// reactDOM only on App.test.js
-
 const hhTerminalCommands = [{
   id: 1,
   description: "Reset terminal screen",
@@ -32,10 +30,17 @@ describe('App', () => {
   it('should have a proper default state', () => {
     expect(wrapper.state()).toEqual({
       hhTerminalCommands: [],
+      score: 0,
+      showCommands: false,
+      showKeys: false,
     })
   })
 })
 
 // Remaining Tests:
-// button (?)
-// componentDidMount(?)
+// updateScore
+// resetGame
+// toggleAllCommandsModal
+// toggleAllKeysModal
+// renderModals
+// buttons?

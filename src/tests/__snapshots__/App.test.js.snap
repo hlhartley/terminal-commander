@@ -33,15 +33,37 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <button
-          className="reset-button"
-        >
-          RESET GAME
-        </button>,
-        <GameContainer />,
-        <TerminalCard
-          terminalCommands={Array []}
+        <GameContainer
+          score={0}
         />,
+        <div
+          className="buttons-container"
+        >
+          <button
+            className="reset-button"
+            onClick={[Function]}
+          >
+            RESET GAME
+          </button>
+          <button
+            className="keys-button"
+            onClick={[Function]}
+          >
+            KEY
+          </button>
+          <button
+            className="allcommands-button"
+            onClick={[Function]}
+          >
+            ALL COMMANDS
+          </button>
+        </div>,
+        <TerminalCard
+          score={0}
+          terminalCommands={Array []}
+          updateScore={[Function]}
+        />,
+        undefined,
       ],
       "className": "app-container",
     },
@@ -50,35 +72,100 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": "RESET GAME",
-          "className": "reset-button",
+          "clickReset": undefined,
+          "score": 0,
         },
         "ref": null,
-        "rendered": "RESET GAME",
-        "type": "button",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="reset-button"
+              onClick={[Function]}
+            >
+              RESET GAME
+            </button>,
+            <button
+              className="keys-button"
+              onClick={[Function]}
+            >
+              KEY
+            </button>,
+            <button
+              className="allcommands-button"
+              onClick={[Function]}
+            >
+              ALL COMMANDS
+            </button>,
+          ],
+          "className": "buttons-container",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "RESET GAME",
+              "className": "reset-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "RESET GAME",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "KEY",
+              "className": "keys-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "KEY",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ALL COMMANDS",
+              "className": "allcommands-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "ALL COMMANDS",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "score": 0,
           "terminalCommands": Array [],
+          "updateScore": [Function],
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
+      undefined,
     ],
     "type": "div",
   },
@@ -89,15 +176,37 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <button
-            className="reset-button"
-          >
-            RESET GAME
-          </button>,
-          <GameContainer />,
-          <TerminalCard
-            terminalCommands={Array []}
+          <GameContainer
+            score={0}
           />,
+          <div
+            className="buttons-container"
+          >
+            <button
+              className="reset-button"
+              onClick={[Function]}
+            >
+              RESET GAME
+            </button>
+            <button
+              className="keys-button"
+              onClick={[Function]}
+            >
+              KEY
+            </button>
+            <button
+              className="allcommands-button"
+              onClick={[Function]}
+            >
+              ALL COMMANDS
+            </button>
+          </div>,
+          <TerminalCard
+            score={0}
+            terminalCommands={Array []}
+            updateScore={[Function]}
+          />,
+          undefined,
         ],
         "className": "app-container",
       },
@@ -106,35 +215,100 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": "RESET GAME",
-            "className": "reset-button",
+            "clickReset": undefined,
+            "score": 0,
           },
           "ref": null,
-          "rendered": "RESET GAME",
-          "type": "button",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="reset-button"
+                onClick={[Function]}
+              >
+                RESET GAME
+              </button>,
+              <button
+                className="keys-button"
+                onClick={[Function]}
+              >
+                KEY
+              </button>,
+              <button
+                className="allcommands-button"
+                onClick={[Function]}
+              >
+                ALL COMMANDS
+              </button>,
+            ],
+            "className": "buttons-container",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "RESET GAME",
+                "className": "reset-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "RESET GAME",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "KEY",
+                "className": "keys-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "KEY",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ALL COMMANDS",
+                "className": "allcommands-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "ALL COMMANDS",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "score": 0,
             "terminalCommands": Array [],
+            "updateScore": [Function],
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
+        undefined,
       ],
       "type": "div",
     },
