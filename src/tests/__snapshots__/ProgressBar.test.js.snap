@@ -18,16 +18,20 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <img
-          alt="tank"
-          className="tank-img"
-          src="/images/armytank.png"
-          style={
-            Object {
-              "transform": "translate(NaNvw)",
+        <div
+          className="tank-container"
+        >
+          <img
+            alt="tank"
+            className="tank-img"
+            src="/images/armytank.png"
+            style={
+              Object {
+                "transform": "translate(NaNvw)",
+              }
             }
-          }
-        />,
+          />
+        </div>,
         <img
           alt="yellow star"
           className="star-img pulse"
@@ -43,16 +47,36 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": "tank",
-          "className": "tank-img",
-          "src": "/images/armytank.png",
-          "style": Object {
-            "transform": "translate(NaNvw)",
-          },
+          "children": <img
+            alt="tank"
+            className="tank-img"
+            src="/images/armytank.png"
+            style={
+              Object {
+                "transform": "translate(NaNvw)",
+              }
+            }
+          />,
+          "className": "tank-container",
         },
         "ref": null,
-        "rendered": null,
-        "type": "img",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "tank",
+            "className": "tank-img",
+            "src": "/images/armytank.png",
+            "style": Object {
+              "transform": "translate(NaNvw)",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -77,16 +101,20 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <img
-            alt="tank"
-            className="tank-img"
-            src="/images/armytank.png"
-            style={
-              Object {
-                "transform": "translate(NaNvw)",
+          <div
+            className="tank-container"
+          >
+            <img
+              alt="tank"
+              className="tank-img"
+              src="/images/armytank.png"
+              style={
+                Object {
+                  "transform": "translate(NaNvw)",
+                }
               }
-            }
-          />,
+            />
+          </div>,
           <img
             alt="yellow star"
             className="star-img pulse"
@@ -102,16 +130,36 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": "tank",
-            "className": "tank-img",
-            "src": "/images/armytank.png",
-            "style": Object {
-              "transform": "translate(NaNvw)",
-            },
+            "children": <img
+              alt="tank"
+              className="tank-img"
+              src="/images/armytank.png"
+              style={
+                Object {
+                  "transform": "translate(NaNvw)",
+                }
+              }
+            />,
+            "className": "tank-container",
           },
           "ref": null,
-          "rendered": null,
-          "type": "img",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "tank",
+              "className": "tank-img",
+              "src": "/images/armytank.png",
+              "style": Object {
+                "transform": "translate(NaNvw)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
         },
         Object {
           "instance": null,

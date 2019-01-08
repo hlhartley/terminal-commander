@@ -1,19 +1,19 @@
 @import '_variables.scss';
 
 .key-modal {
-    animation: popUp .5s ease 0s 1 normal;     
-    background-color: $lightyellow;
+    animation: popUp .5s ease 0s 1 normal;
+    background-color: #fdffdb;
     border: 3px solid black;
     border-radius: 15px;
     bottom: 0;
-    height: 25%;
+    height: 30%;
     left: 0;
     margin: auto;
     overflow: scroll;
     padding: 35px;
     position: absolute;
     right: 0;
-    top: -225px;
+    top: -165px;
     width: 65%;
     z-index: 10;
     button {
@@ -26,4 +26,11 @@
     align-items: right;
     display: flex;
     justify-content: flex-end;
+}
+.fa-key {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-arrow-right {
+    color: $skyblue;
 }
