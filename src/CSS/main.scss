@@ -37,10 +37,11 @@ button:focus {
 
 // modals
 .modal-title {
-    text-decoration: underline;
-    font-weight: 600;
-    font-size: 22px;
     color: $skyblue;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
 }
 .modal-list {
     line-height: 30px;

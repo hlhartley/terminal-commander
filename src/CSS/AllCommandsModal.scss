@@ -13,7 +13,7 @@
     padding: 35px;
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 53px;
     width: 65%;
     z-index: 10;
     button {
@@ -26,4 +26,12 @@
     align-items: right;
     display: flex;
     justify-content: flex-end;
+}
+.fa-hand-point-right {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-angle-double-right {
+    color: $skyblue;
 }
