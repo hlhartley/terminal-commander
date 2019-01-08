@@ -32,38 +32,26 @@ describe('App', () => {
     expect(wrapper.find('TerminalCard').length).toEqual(1)
   })
 
-  xit('should call resetGame when button is clicked', () => {
-    console.log(wrapper.debug())
-    wrapper.instance().resetGame = jest.fn()
-    wrapper
-      .find('.reset-button')
-      .simulate('click')
-    // expect(wrapper.instance().toggleAllKeysModal).toHaveBeenCalled()
-    expect(wrapper.instance().resetGame).toHaveBeenCalledTimes(1)
+  it('should call resetGame when button is clicked', () => {
+    wrapper.instance().updateScore();
+    expect(wrapper.state('score')).toEqual(1);
+    wrapper.find('.reset-button').simulate('click');
+    expect(wrapper.state('score')).toEqual(0);
   })
 
-  // const clickFn = jest.fn();
-  // it('button click should hide component', () => {
-  //   wrapper
-  //     .find('.reset-button')
-  //     .simulate('click');
-  //   expect(clickFn).toHaveBeenCalled();
-  // });
+  it('should call toggleAllKeysMethod when button is clicked', () => {
+    wrapper.instance().toggleAllKeysModal();
+    expect(wrapper.state('showKeys')).toEqual(true);
+    wrapper.find('.keys-button').simulate('click')
+    expect(wrapper.state('showKeys')).toEqual(false);
 
-  xit('should call toggleAllKeysMethod when button is clicked', () => {
-    wrapper.instance().toggleAllKeysModal = jest.fn()
-    const keysButton = wrapper.find('.keys-button')
-    keysButton.simulate('click')
-    expect(wrapper.instance().toggleAllKeysModal).toHaveBeenCalled()
-    expect(wrapper.instance().toggleAllKeysModal).toHaveBeenCalledTimes(1)
   })
 
-  xit('should call toggleAllKeysMethod when button is clicked', () => {
-    wrapper.instance().toggleAllCommandsModal = jest.fn()
-    const commandsButton = wrapper.find('.allcommands-button')
-    commandsButton.simulate('click')
-    expect(wrapper.instance().toggleAllCommandsModal).toHaveBeenCalled()
-    expect(wrapper.instance().toggleAllCommandsModal).toHaveBeenCalledTimes(1)
+  it('should call toggleAllCommandsMethod when button is clicked', () => {
+    wrapper.instance().toggleAllCommandsModal();
+    expect(wrapper.state('showCommands')).toEqual(true);
+    wrapper.find('.allcommands-button').simulate('click')
+    expect(wrapper.state('showCommands')).toEqual(false);
   })
 
   it('resetGame method should change App score state to 0 when the resetGame method is called', () => {
@@ -81,8 +69,9 @@ describe('App', () => {
     expect(wrapper.state('showKeys')).toEqual(true)
   })
 
-  xit('updateScore method should change App score state to +1 when the updateScore method is called', () => {
-    wrapper.find('.command-input').simulate('click', { score: 1})
-    expect(wrapper.state('score')).toEqual(2)
+  it('updateScore method should change App score state to +1 when the updateScore method is called', () => {
+    expect(wrapper.state('score')).toEqual(0)
+    wrapper.instance().updateScore();
+    expect(wrapper.state('score')).toEqual(1)
   })
 })

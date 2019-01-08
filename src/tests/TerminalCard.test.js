@@ -27,7 +27,6 @@ describe('TerminalCard', () => {
   })
 
   it('should exist', () => {
-    // console.log(wrapper.instance().props)
     expect(wrapper).toBeDefined();
   })
 
