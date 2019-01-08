@@ -16,7 +16,7 @@
         text-align: center;
         margin-bottom: 10px;
         margin-top: 10px;
-        width: 540px;
+        width: 380px;
     }
     .score {
         color: $lightred;
@@ -30,5 +30,8 @@
     }
     .fa-flag-usa {
         font-size: 30px;
+    }
+    .fa-arrow-right {
+        margin-right: 10px;
     }
 }

@@ -68,7 +68,7 @@ export default class TerminalCard extends Component {
             <p className='mission-text'>Mission: type in the correct commands to get your tank to the target star</p>
             <p>Score: <span className='score'>{this.props.score} / 30</span> complete</p>
             <p>Enter command to "<span className='command-instructions'>{this.displayCommandDescription()}</span>"</p>
-            <input placeholder={this.displayCommandInput()} id='commandInput' className='command-input' onChange={this.enterCommand}></input>
+            <span><i class="fas fa-arrow-right"></i><input placeholder={this.displayCommandInput()} id='commandInput' className='command-input' onChange={this.enterCommand}></input></span>
           </div>
         );
       }
