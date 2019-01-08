@@ -21,6 +21,3 @@ Terminal Commander was an individual project built using React. It was intended 
 - SCSS
 - Jest
 - Enzyme
-
-## Future Enhancements
-- Animating the tank image with CSS
