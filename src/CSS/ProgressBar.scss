@@ -8,6 +8,20 @@
 .tank-img {
     height: 100px;
     transition-duration: 2s;
+    position: relative;
+}
+
+.tank-container {
+    animation: bobbing 1s infinite ease-in-out alternate;
+}
+
+@keyframes bobbing {
+    0%{
+        transform: rotate(0) translateY(0);
+    }
+    100%{
+        transform: rotate(0.1deg) translateY(4px);
+    }
 }
 
 .star-img {
