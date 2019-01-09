@@ -12,7 +12,7 @@ describe('GameContainer', () => {
   })
 
   it('should exist', () => {
-     expect(wrapper).toBeDefined()
+    expect(wrapper).toBeDefined()
   })
 
   it('should match the snapshot with all data passed in correctly', () => {
