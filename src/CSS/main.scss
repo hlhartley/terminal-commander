@@ -29,15 +29,28 @@
 // buttons
 button {
     cursor: pointer;
-}
-
-button:focus {
-    outline: 0;
+    &:focus {
+        outline: 0;
+    }
 }
 
 // icons
 .fa-angle-double-right {
     color: $skyblue;
+}
+.fa-hand-point-right {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-key {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-flag-usa {
+    font-size: 30px;
+}
+.fa-arrow-right {
+    margin-right: 10px;
 }
 
 // modals

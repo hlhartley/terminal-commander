@@ -46,12 +46,18 @@ ShallowWrapper {
         <h2
           className="modal-title"
         >
+          <i
+            class="fas fa-hand-point-right"
+          />
           All Commands:
         </h2>,
-        <ol
-          className="modal-list"
+        <ul
+          className="modal-list fa-ul"
         >
           <li>
+            <i
+              class="fa-li fas fa-angle-double-right"
+            />
             <span
               className="skyblue"
             >
@@ -61,6 +67,9 @@ ShallowWrapper {
             reset
           </li>
           <li>
+            <i
+              class="fa-li fas fa-angle-double-right"
+            />
             <span
               className="skyblue"
             >
@@ -69,7 +78,7 @@ ShallowWrapper {
              = 
             clear
           </li>
-        </ol>,
+        </ul>,
       ],
       "className": "commands-modal",
     },
@@ -107,11 +116,29 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "All Commands:",
+          "children": Array [
+            <i
+              class="fas fa-hand-point-right"
+            />,
+            "All Commands:",
+          ],
           "className": "modal-title",
         },
         "ref": null,
-        "rendered": "All Commands:",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "class": "fas fa-hand-point-right",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          "All Commands:",
+        ],
         "type": "h2",
       },
       Object {
@@ -121,6 +148,9 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -130,6 +160,9 @@ ShallowWrapper {
               reset
             </li>,
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -139,7 +172,7 @@ ShallowWrapper {
               clear
             </li>,
           ],
-          "className": "modal-list",
+          "className": "modal-list fa-ul",
         },
         "ref": null,
         "rendered": Array [
@@ -149,6 +182,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />,
                 <span
                   className="skyblue"
                 >
@@ -160,6 +196,17 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "class": "fa-li fas fa-angle-double-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -183,6 +230,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />,
                 <span
                   className="skyblue"
                 >
@@ -194,6 +244,17 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "class": "fa-li fas fa-angle-double-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -212,7 +273,7 @@ ShallowWrapper {
             "type": "li",
           },
         ],
-        "type": "ol",
+        "type": "ul",
       },
     ],
     "type": "div",
@@ -236,12 +297,18 @@ ShallowWrapper {
           <h2
             className="modal-title"
           >
+            <i
+              class="fas fa-hand-point-right"
+            />
             All Commands:
           </h2>,
-          <ol
-            className="modal-list"
+          <ul
+            className="modal-list fa-ul"
           >
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -251,6 +318,9 @@ ShallowWrapper {
               reset
             </li>
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -259,7 +329,7 @@ ShallowWrapper {
                = 
               clear
             </li>
-          </ol>,
+          </ul>,
         ],
         "className": "commands-modal",
       },
@@ -297,11 +367,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "All Commands:",
+            "children": Array [
+              <i
+                class="fas fa-hand-point-right"
+              />,
+              "All Commands:",
+            ],
             "className": "modal-title",
           },
           "ref": null,
-          "rendered": "All Commands:",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "class": "fas fa-hand-point-right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "All Commands:",
+          ],
           "type": "h2",
         },
         Object {
@@ -311,6 +399,9 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />
                 <span
                   className="skyblue"
                 >
@@ -320,6 +411,9 @@ ShallowWrapper {
                 reset
               </li>,
               <li>
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />
                 <span
                   className="skyblue"
                 >
@@ -329,7 +423,7 @@ ShallowWrapper {
                 clear
               </li>,
             ],
-            "className": "modal-list",
+            "className": "modal-list fa-ul",
           },
           "ref": null,
           "rendered": Array [
@@ -339,6 +433,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <i
+                    class="fa-li fas fa-angle-double-right"
+                  />,
                   <span
                     className="skyblue"
                   >
@@ -350,6 +447,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "class": "fa-li fas fa-angle-double-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -373,6 +481,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <i
+                    class="fa-li fas fa-angle-double-right"
+                  />,
                   <span
                     className="skyblue"
                   >
@@ -384,6 +495,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "class": "fa-li fas fa-angle-double-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -402,7 +524,7 @@ ShallowWrapper {
               "type": "li",
             },
           ],
-          "type": "ol",
+          "type": "ul",
         },
       ],
       "type": "div",

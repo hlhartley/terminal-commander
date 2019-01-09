@@ -32,12 +32,18 @@ ShallowWrapper {
         <h2
           className="modal-title"
         >
+          <i
+            class="fas fa-key"
+          />
           Key:
         </h2>,
         <ul
-          className="modal-list"
+          className="modal-list fa-ul"
         >
           <li>
+            <i
+              class="fa-li fas fa-angle-double-right"
+            />
             <span
               className="skyblue"
             >
@@ -46,6 +52,9 @@ ShallowWrapper {
              = file name
           </li>
           <li>
+            <i
+              class="fa-li fas fa-angle-double-right"
+            />
             <span
               className="skyblue"
             >
@@ -54,6 +63,9 @@ ShallowWrapper {
              = directory name
           </li>
           <li>
+            <i
+              class="fa-li fas fa-angle-double-right"
+            />
             <span
               className="skyblue"
             >
@@ -99,11 +111,29 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Key:",
+          "children": Array [
+            <i
+              class="fas fa-key"
+            />,
+            "Key:",
+          ],
           "className": "modal-title",
         },
         "ref": null,
-        "rendered": "Key:",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "class": "fas fa-key",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          "Key:",
+        ],
         "type": "h2",
       },
       Object {
@@ -113,6 +143,9 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -121,6 +154,9 @@ ShallowWrapper {
                = file name
             </li>,
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -129,6 +165,9 @@ ShallowWrapper {
                = directory name
             </li>,
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -137,7 +176,7 @@ ShallowWrapper {
                = file extension type (ex. .html, .css, .txt)
             </li>,
           ],
-          "className": "modal-list",
+          "className": "modal-list fa-ul",
         },
         "ref": null,
         "rendered": Array [
@@ -147,6 +186,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />,
                 <span
                   className="skyblue"
                 >
@@ -157,6 +199,17 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "class": "fa-li fas fa-angle-double-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -179,6 +232,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />,
                 <span
                   className="skyblue"
                 >
@@ -189,6 +245,17 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "class": "fa-li fas fa-angle-double-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -211,6 +278,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />,
                 <span
                   className="skyblue"
                 >
@@ -221,6 +291,17 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "class": "fa-li fas fa-angle-double-right",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -262,12 +343,18 @@ ShallowWrapper {
           <h2
             className="modal-title"
           >
+            <i
+              class="fas fa-key"
+            />
             Key:
           </h2>,
           <ul
-            className="modal-list"
+            className="modal-list fa-ul"
           >
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -276,6 +363,9 @@ ShallowWrapper {
                = file name
             </li>
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -284,6 +374,9 @@ ShallowWrapper {
                = directory name
             </li>
             <li>
+              <i
+                class="fa-li fas fa-angle-double-right"
+              />
               <span
                 className="skyblue"
               >
@@ -329,11 +422,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Key:",
+            "children": Array [
+              <i
+                class="fas fa-key"
+              />,
+              "Key:",
+            ],
             "className": "modal-title",
           },
           "ref": null,
-          "rendered": "Key:",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "class": "fas fa-key",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "Key:",
+          ],
           "type": "h2",
         },
         Object {
@@ -343,6 +454,9 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <li>
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />
                 <span
                   className="skyblue"
                 >
@@ -351,6 +465,9 @@ ShallowWrapper {
                  = file name
               </li>,
               <li>
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />
                 <span
                   className="skyblue"
                 >
@@ -359,6 +476,9 @@ ShallowWrapper {
                  = directory name
               </li>,
               <li>
+                <i
+                  class="fa-li fas fa-angle-double-right"
+                />
                 <span
                   className="skyblue"
                 >
@@ -367,7 +487,7 @@ ShallowWrapper {
                  = file extension type (ex. .html, .css, .txt)
               </li>,
             ],
-            "className": "modal-list",
+            "className": "modal-list fa-ul",
           },
           "ref": null,
           "rendered": Array [
@@ -377,6 +497,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <i
+                    class="fa-li fas fa-angle-double-right"
+                  />,
                   <span
                     className="skyblue"
                   >
@@ -387,6 +510,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "class": "fa-li fas fa-angle-double-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -409,6 +543,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <i
+                    class="fa-li fas fa-angle-double-right"
+                  />,
                   <span
                     className="skyblue"
                   >
@@ -419,6 +556,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "class": "fa-li fas fa-angle-double-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -441,6 +589,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <i
+                    class="fa-li fas fa-angle-double-right"
+                  />,
                   <span
                     className="skyblue"
                   >
@@ -451,6 +602,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "class": "fa-li fas fa-angle-double-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,

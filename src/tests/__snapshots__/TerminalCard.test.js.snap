@@ -59,12 +59,17 @@ ShallowWrapper {
           </span>
           "
         </p>,
-        <input
-          className="command-input"
-          id="commandInput"
-          onChange={[Function]}
-          placeholder="reset"
-        />,
+        <span>
+          <i
+            class="fas fa-arrow-right"
+          />
+          <input
+            className="command-input"
+            id="commandInput"
+            onChange={[Function]}
+            placeholder="reset"
+          />
+        </span>,
       ],
       "className": "terminal-card",
     },
@@ -162,14 +167,47 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "className": "command-input",
-          "id": "commandInput",
-          "onChange": [Function],
-          "placeholder": "reset",
+          "children": Array [
+            <i
+              class="fas fa-arrow-right"
+            />,
+            <input
+              className="command-input"
+              id="commandInput"
+              onChange={[Function]}
+              placeholder="reset"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": null,
-        "type": "input",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "class": "fas fa-arrow-right",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "command-input",
+              "id": "commandInput",
+              "onChange": [Function],
+              "placeholder": "reset",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "span",
       },
     ],
     "type": "div",
@@ -205,12 +243,17 @@ ShallowWrapper {
             </span>
             "
           </p>,
-          <input
-            className="command-input"
-            id="commandInput"
-            onChange={[Function]}
-            placeholder="reset"
-          />,
+          <span>
+            <i
+              class="fas fa-arrow-right"
+            />
+            <input
+              className="command-input"
+              id="commandInput"
+              onChange={[Function]}
+              placeholder="reset"
+            />
+          </span>,
         ],
         "className": "terminal-card",
       },
@@ -308,14 +351,47 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "command-input",
-            "id": "commandInput",
-            "onChange": [Function],
-            "placeholder": "reset",
+            "children": Array [
+              <i
+                class="fas fa-arrow-right"
+              />,
+              <input
+                className="command-input"
+                id="commandInput"
+                onChange={[Function]}
+                placeholder="reset"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": null,
-          "type": "input",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "class": "fas fa-arrow-right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "command-input",
+                "id": "commandInput",
+                "onChange": [Function],
+                "placeholder": "reset",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "span",
         },
       ],
       "type": "div",
