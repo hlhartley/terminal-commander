@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     .tank-container {
-        animation: bobbing 1s infinite ease-in-out alternate;
+        animation: bobbing .35s infinite ease-in-out alternate;
     }
     @keyframes bobbing {
         0%{
             transform: rotate(0) translateY(0);
         }
         100%{
-            transform: rotate(0.1deg) translateY(4px);
+            transform: rotate(0.1deg) translateY(3px);
         }
     }
     .tank-img {
