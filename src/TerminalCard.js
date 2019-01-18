@@ -10,9 +10,9 @@ export default class TerminalCard extends Component {
     }
   }
 
-  componentDidUpdate() {
-    this.updateScore();
-  }
+  // componentDidUpdate() {
+  //   this.updateScore();
+  // }
 
   displayCommandDescription() {
     if(this.props.score === 30) {
@@ -37,11 +37,10 @@ export default class TerminalCard extends Component {
   }
 
   enterCommand = (event) => {
-    this.setState({inputValue: event.target.value})
-    this.updateScore(event)
+    this.setState({inputValue: event.target.value}, this.updateScore)
   }
 
-  updateScore(event) {
+  updateScore() {
     if(this.state.inputValue === this.displayCommandInput()) {
       this.clearInput()
       this.props.updateScore()

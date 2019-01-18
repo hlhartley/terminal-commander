@@ -11,7 +11,7 @@ export default class App extends Component {
 
   this.state = {
     hhTerminalCommands: [],
-    score: 0,
+    score: 29,
     showCommands: false,
     showKeys: false,
   }
