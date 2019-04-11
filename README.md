@@ -19,6 +19,9 @@ A web-based React game that allows users to enhance muscle memory by repetitivel
 ## Background / About
 Terminal Commander was an individual project built using React. It was intended to help new MAC users as well as users unfamiliar with MAC Terminal Commands. The project required making a dataset of 30 terminal commands with associated descriptions and then using the Fetch API call to import data directly into the app. There are 30 total commands and the tank image moves across the screen as the user types in the correct command. Once a user types in all 30 commands correctly, they win the game!
 
+## Original Project Spect
+[Memoize](http://frontend.turing.io/projects/memoize.html) at Turing School of Software and Design
+
 ## Primary Technologies Used
 - React
 - SCSS
