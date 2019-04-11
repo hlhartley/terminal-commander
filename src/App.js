@@ -17,18 +17,15 @@ export default class App extends Component {
   }
 }
 
-componentDidMount() {
-  fetch("http://memoize-datasets.herokuapp.com/api/v1/hhTerminalCommands")
-    .then(results => results.json())
-    .then((result) => {
-      this.setState({
-        hhTerminalCommands: result.hhTerminalCommands
-      })
-    })
-    .catch(err => {
-      this.setState({error: err})
-    })
+async componentDidMount() {
+  try {
+    let response = await fetch("http://memoize-datasets.herokuapp.com/api/v1/hhTerminalCommands")
+    let result = await response.json()
+    this.setState({ hhTerminalCommands: result.hhTerminalCommands })
+  } catch (err) {
+    this.setState({error: err})
   }
+}
 
   updateScore() {
     this.setState({score: this.state.score + 1})
