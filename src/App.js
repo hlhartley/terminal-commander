@@ -4,13 +4,14 @@ import GameContainer from './GameContainer';
 import TerminalCard from './TerminalCard';
 import AllCommandsModal from './AllCommandsModal';
 import KeyModal from './KeyModal';
+import { terminalCommands } from './Helpers/Data';
 
 export default class App extends Component {
   constructor() {
     super();
 
   this.state = {
-    hhTerminalCommands: [],
+    hhTerminalCommands: terminalCommands,
     score: 0,
     showCommands: false,
     showKeys: false,
