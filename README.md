@@ -33,4 +33,4 @@ Terminal Commander was an individual project built using React. It was intended 
 - Asked to create a short Try Turing promotional video demo-ing my app as well as explaining the Frontend and Backend aspects of the project
 
 ## Video Demo / App Explanation
-![Video Demo](https://youtu.be/nrHgS-TPqRg)
+[![Video Demo](https://youtu.be/nrHgS-TPqRg)](https://www.youtube.com/watch?v=nrHgS-TPqRg)
