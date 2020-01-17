@@ -27,3 +27,7 @@ Terminal Commander was an individual project built using React. It was intended 
 - SCSS
 - Jest
 - Enzyme
+
+## Acknowledgements
+- Recognized as a top student-created app for the project[Memoize](http://frontend.turing.io/projects/memoize.html) at Turing School of Software and Design
+- Asked to create a short Try Turing promotional video demo-ing my app as well as explaining the Frontend and Backend aspects of the project
