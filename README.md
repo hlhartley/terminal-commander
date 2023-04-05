@@ -2,7 +2,7 @@
 A web-based React game that allows users to enhance muscle memory by repetitively typing actual terminal commands into the input box.
 
 ## Link to Deployed App
-[Terminal Commander Game](https://terminal-commander.herokuapp.com/)
+[Terminal Commander Game](http://terminal-commander.s3-website-us-west-2.amazonaws.com/)
 
 ## YouTube Video Demo & App Explanation
 [![Video Demo](https://img.youtube.com/vi/nrHgS-TPqRg/default.jpg)](https://www.youtube.com/watch?v=nrHgS-TPqRg)
